@@ -1,1 +1,38 @@
-!
+1. Data Loading and Initial Checks
+  -Loaded the dataset world_population.csv using pandas.
+  -Used df.info(), df.describe(), df.isnull().sum(), and df.nunique() to understand data types, basic statistics, missing values, and unique counts.
+  -No major missing values found; data types were appropriate.
+
+2. Top Countries by World Population Percentage
+  -Sorted countries by "World Population Percentage" (descending).
+  -Observed top contributors like China, India, and USA.
+
+3. Correlation Analysis
+  -Selected only numeric columns using select_dtypes().
+  -Created a correlation matrix and plotted a heatmap (sns.heatmap()).
+  -High correlation between different year population columns.
+  -Weak correlation between Area and Population.
+
+4. Continent-Level Analysis
+  -Grouped data by Continent and calculated the mean of population columns.
+  -Sorted continents by "2022 Population".
+  -Filtered data specifically for Oceania to observe its population characteristics.
+
+5. Trend Analysis (1970-2022)
+  -Created a new DataFrame (df1 and df2) with average population over decades by continent.
+  -Plotted population growth trends across continents using a line plot.
+  -Asia and Africa showed the highest growth.
+
+6. Scatter Plot
+  -Plotted a scatter plot between Continent and 2022 Population.
+  -Highlighted the difference in population distribution across continents.
+
+7. Boxplot
+  -Plotted a boxplot (df.boxplot(figsize=(20,10))) to observe data spread and outliers across numeric columns.
+  -Found extreme outliers like China and India for population.
+
+8. Summary of Tools Used
+  -Pandas: Data handling, aggregation, missing value check
+  -Seaborn: Heatmap visualization
+  -Matplotlib: Scatter plot, line plot, and boxplot visualization
+
