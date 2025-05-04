@@ -1,0 +1,24 @@
+🧾 Dataset Overview
+I have choosed a sample sales dataset from kaggle with the below columns
+Contains columns: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country.
+
+🔹 SELECT, WHERE, ORDER BY, GROUP BY
+    -Filtered data by country.
+    -Sorted by quantity.
+    -Grouped by Country and Description.
+
+🔹 JOINS (INNER, LEFT, RIGHT)
+    -Created and joined with a customers table.
+    -Demonstrated different join types to match data.
+
+🔹 Subqueries
+    -Used subqueries to filter based on average quantity.
+    -Identified countries with high total sales.
+
+🔹 Aggregate Functions (SUM, AVG)
+    -Calculated total revenue and average price.
+    -Aggregated quantities per product.
+
+🔹 Views
+    -Created top_products view for top-selling items.
+    -Simplified repeated queries.
